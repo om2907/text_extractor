@@ -1,0 +1,4 @@
+opencv-python-headless
+opencv-python-headless
+pytesseract
+streamlit

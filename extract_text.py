@@ -4,6 +4,10 @@ import pytesseract
 import tempfile
 import os
 
+# Set the path to the Tesseract executable (if needed)
+pytesseract.pytesseract.tesseract_cmd = '\Program Files\Tesseract-OCR'  # Example path, adjust as necessary
+
+
 # Function to extract text from an image
 def extract_text_from_image(image_path):
     try:

@@ -5,7 +5,7 @@ import tempfile
 import os
 
 # Set the path to the Tesseract executable (if needed)
-pytesseract.pytesseract.tesseract_cmd = '\Program Files\Tesseract-OCR'  # Example path, adjust as necessary
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 
 # Function to extract text from an image

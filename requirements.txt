@@ -1,4 +1,5 @@
 opencv-python-headless
-
+tesseracr-ocr
+pytesseract
 streamlit
 

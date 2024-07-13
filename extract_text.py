@@ -36,7 +36,7 @@ def extract_text_from_image(image_path):
 
 def main():
     # Set the tesseract_cmd path if necessary
-    # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
     
     st.title("Extract Text from Image")
 

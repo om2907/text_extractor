@@ -48,7 +48,7 @@ def main():
         temp_file = tempfile.NamedTemporaryFile(delete=False)
         temp_file.write(uploaded_file.read())
 
-        st.image(temp_file.name, caption="Uploaded Image", use_column_width=True)
+        st.image(temp_file.name, caption="Uploaded Image", use_container_width=True)
 
         # Extract text from the uploaded image
         extracted_text = extract_text_from_image(temp_file.name)
